@@ -1,0 +1,61 @@
+/**
+ * MAWDY - Notifications simulées
+ */
+
+export const INITIAL_NOTIFICATIONS = [
+  {
+    id: 'NOTIF-001',
+    title: 'Nouveau dossier transmis',
+    message: 'Le dossier DOS-2026-0101 (Assistance Dépannage 24/7) a été affecté à votre département.',
+    targetDepartment: 'Remorquage',
+    targetRole: null,
+    timestamp: '2026-10-29T08:35:00Z',
+    read: false,
+    type: 'info',
+    dossierId: 'DOS-2026-0101',
+  },
+  {
+    id: 'NOTIF-002',
+    title: 'Validation hiérarchique requise',
+    message: 'Le dossier DOS-2026-0103 requiert votre visa hiérarchique avant transmission.',
+    targetDepartment: 'Services généraux',
+    targetRole: 'RESPONSABLE_SERVICE',
+    timestamp: '2026-10-28T16:05:00Z',
+    read: false,
+    type: 'warning',
+    dossierId: 'DOS-2026-0103',
+  },
+  {
+    id: 'NOTIF-003',
+    title: 'Facture en attente de paiement',
+    message: 'Le dossier DOS-2026-0105 (TotalEnergies - 4 720,80 €) a été transmis au pôle Finance.',
+    targetDepartment: 'Finance',
+    targetRole: 'FINANCE',
+    timestamp: '2026-10-25T11:20:00Z',
+    read: true,
+    type: 'action',
+    dossierId: 'DOS-2026-0105',
+  },
+  {
+    id: 'NOTIF-004',
+    title: 'Dossier retourné pour correction',
+    message: 'Le dossier DOS-2026-0107 nécessite des pièces justificatives complémentaires.',
+    targetDepartment: 'Services généraux',
+    targetRole: null,
+    timestamp: '2026-10-15T09:35:00Z',
+    read: true,
+    type: 'warning',
+    dossierId: 'DOS-2026-0107',
+  },
+  {
+    id: 'NOTIF-005',
+    title: 'Paiement exécuté avec succès',
+    message: 'Le règlement du dossier DOS-2026-0106 (Orange Business - 2 150,00 €) a été validé.',
+    targetDepartment: null,
+    targetRole: 'ADMIN',
+    timestamp: '2026-10-18T15:50:00Z',
+    read: true,
+    type: 'success',
+    dossierId: 'DOS-2026-0106',
+  },
+];
