@@ -1,7 +1,4 @@
-/**
- * MAWDY - Données Dossiers & Factures conformes au schéma Oracle
- * Tables : DOSSIER, DOCUMENT, PIECE_JOINTE, HISTORIQUE_TRANSMISSION
- */
+
 
 import { WORKFLOW_STATUS_IDS, DEPT_IDS } from '../utils/constants';
 
