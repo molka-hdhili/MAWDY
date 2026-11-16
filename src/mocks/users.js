@@ -1,7 +1,4 @@
-/**
- * MAWDY - Utilisateurs réels extraits de la base de données Oracle XE
- * Table UTILISATEUR & DEPARTEMENT & ROLE
- */
+
 
 import { ROLES } from '../utils/constants';
 
