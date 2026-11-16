@@ -1,3 +1,4 @@
+
 # MAWDY – Gestion Électronique des Dossiers et Factures
 
 MAWDY est une application web de gestion électronique des documents et de suivi du traitement des factures au sein d'une compagnie d'assurance.
@@ -76,3 +77,6 @@ Le projet repose sur une architecture client-serveur séparant le frontend React
 ---
 
 **MAWDY** – Application de gestion électronique des dossiers et factures.
+=======
+# MAWDY
+Application web de gestion électronique des dossiers et factures.
